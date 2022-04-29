@@ -17,7 +17,6 @@ public class DirectorAlmuerzo {
 
     public void create () throws IOException {
         boolean adicion = true;
-        builder.setSize();
         builder.init();
         builder.setSopa();
         builder.setSeco();

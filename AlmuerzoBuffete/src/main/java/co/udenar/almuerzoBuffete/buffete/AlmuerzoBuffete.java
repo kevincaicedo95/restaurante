@@ -11,7 +11,7 @@ public class AlmuerzoBuffete extends Almuerzo {
     private Producto seco;
     private Producto postre;
     private List<Producto> myOptions;
-    private int size;
+    
 
     AlmuerzoBuffete(double p) {
         this.precio = p;
@@ -41,8 +41,7 @@ public class AlmuerzoBuffete extends Almuerzo {
     public Producto getPostre() {
         return postre;
     }
-    public int getSize(){return  size;}
-
+   
 
     public List<Producto> getMyOptions() {
         return myOptions;

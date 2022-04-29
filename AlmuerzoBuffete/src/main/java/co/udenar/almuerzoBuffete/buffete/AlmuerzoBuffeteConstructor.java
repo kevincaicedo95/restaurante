@@ -95,13 +95,7 @@ public class AlmuerzoBuffeteConstructor extends AlmuerzoConstructor {
         else return false;
     }
 
-    @Override
-    public AlmuerzoConstructor setSize() {
-        String tamano = read("Elija la cantidad de almuerzos que desea pagar");
-        int tamanoInt = Integer.parseInt(tamano);
-        return this;
-    }
-
+    
 
 
 }

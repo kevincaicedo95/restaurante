@@ -17,5 +17,5 @@ public abstract class AlmuerzoConstructor {
     public AlmuerzoConstructor setSeco() {return this;}
     public AlmuerzoConstructor setPostre() {return this;}
     public boolean addPart() throws IOException {return false;}
-    public AlmuerzoConstructor setSize() {return this;}
+ //   public AlmuerzoConstructor setSize() {return this;}
 }
